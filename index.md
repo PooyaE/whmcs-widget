@@ -1,7 +1,3 @@
-# WHMCS Modules
-
-## Inputs
-
 > {textInput}
 
 ```html
