@@ -6,7 +6,7 @@
 </div>
 ```
 
-{textInput id='username' value='my-user-name'}
+> {textInput id='username' value='my-user-name'}
 
 ```html
 <div class="form-group">
@@ -14,7 +14,7 @@
 </div>
 ```
 
-{textInput name='login[username]'}
+> {textInput name='login[username]'}
 
 ```html
 <div class="form-group">
