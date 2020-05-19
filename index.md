@@ -2,10 +2,7 @@
 
 ## Inputs
 
-```
-{textInput}
-```
-
+> {textInput}
 ```html
 <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
