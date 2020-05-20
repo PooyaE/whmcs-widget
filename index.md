@@ -44,17 +44,17 @@
 
 > {datatable url='@webroot/modules/data.php'}
 
-> {datatable url='@modulelink/data.php'}
->     {col title='id'}{$id}{/col}
->     {col title='fullname'}{$firstname|trim} {$lastname|trim}{/col}
->     {col title='link'}{$ticketId|link:'@modulelink&action=' + $ticketId}{/col}
-> {/datatable}
+{datatable url='@modulelink/data.php'}
+    {col title='id'}{$id}{/col}
+    {col title='fullname'}{$firstname|trim} {$lastname|trim}{/col}
+    {col title='link'}{$ticketId|link:'@modulelink&action=' + $ticketId}{/col}
+{/datatable}
 
-> {searchPanel}
->     {textInput id='username'}
->     {dateInput format='datetime'}
->     {select2Input value='system' options=$options}
-> {/searchPanel}
+{searchPanel}
+    {textInput id='username'}
+    {dateInput format='datetime'}
+    {select2Input value='system' options=$options}
+{/searchPanel}
 
 > {msg type='warning'} some error happened! {msg}
 
@@ -74,8 +74,8 @@
 
 > {$clientModuleLink}
 
-> {modal id='createPage'}
->     {title}some title{/title}
->     {body}some text...{/body}
->     {footer}{button}{/footer}
-> {/modal}
+{modal id='createPage'}
+    {title}some title{/title}
+    {body}some text...{/body}
+    {footer}{button}{/footer}
+{/modal}
